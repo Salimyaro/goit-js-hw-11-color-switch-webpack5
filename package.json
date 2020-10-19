@@ -7,18 +7,18 @@
     "start": "webpack serve --mode=development --config ./development.js",
     "build": "webpack --mode=production --config ./production.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Salimyaro/goit-js-hw-10-webpack.git"
+    "url": "git+https://github.com/Salimyaro/goit-js-hw-11-color-switch-webpack5.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Salimyaro/goit-js-hw-10-webpack/issues"
+    "url": "https://github.com/Salimyaro/goit-js-hw-11-color-switch-webpack5/issues"
   },
-  "homepage": "https://salimyaro.github.io/goit-js-hw-10-webpack",
+  "homepage": "https://salimyaro.github.io/goit-js-hw-11-color-switch-webpack5",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
