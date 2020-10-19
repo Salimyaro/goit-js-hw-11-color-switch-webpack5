@@ -1,0 +1,49 @@
+{
+  "name": "goit-js-hw-11-color-switch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=development --config ./development.js",
+    "build": "webpack --mode=production --config ./production.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salimyaro/goit-js-hw-10-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salimyaro/goit-js-hw-10-webpack/issues"
+  },
+  "homepage": "https://salimyaro.github.io/goit-js-hw-10-webpack",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "gh-pages": "^3.1.0",
+    "handlebars": "^4.7.6",
+    "handlebars-loader": "^1.7.1",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "img-loader": "^3.0.2",
+    "mini-css-extract-plugin": "^1.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.3",
+    "source-map-loader": "^1.1.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpackbar": "^4.0.0"
+  }
+}
